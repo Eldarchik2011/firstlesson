@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>формы</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!-- Тег формы -->
+    <form action="">
+        <!-- Текстовое поле -->
+        login <p><input type="text" name="login" placeholder="Введите логин " required></p>
+
+
+        <p>
+            <!-- Поле для ввода пароля -->
+            password <input type="password" name="password" placeholder="Введите пароль">
+        </p>
+        <h3>Ваши интересы</h3>
+        <!-- Выбор нескольких элементов -->
+
+        <label><input type="checkbox" name="interess" value="sport" checked disabled> Спорт</label>
+        <label><input type="checkbox" name="interess" value="art"> Рисование</label>
+        <label for="programming">Программирование</label><input type="checkbox" name="interess" value="programming"
+            id="programming">
+
+        <p>
+
+        <p>
+            <!-- Выбор одного элемента -->
+            <label><input type="radio" name="pay" value="card"> Карта </label>
+            <label><input type="radio" name="pay" value="qr"> QR код </label>
+            <label><input type="radio" name="pay" value="carh"> Наличные </label>
+        </p>
+        <h3>Ваш город</h3>
+        <p>
+            <!-- Выбор из выпадающего списка -->
+            <select name="city">
+                <option value="moscow">Москва</option>
+                <option value="tyumen">Тюмень</option>
+                <option value="surgut">Сургут</option>
+
+        </p></select>
+        <h3>Введите коментарий</h3>
+        <!-- Поле ввода многострочного текста  -->
+        <textarea name="comment" cols="30" rows="10"></textarea>
+        <!-- Кнопка отправить -->
+        <input type="submit" value="Войти">
+        <!-- Кнопка очистить -->
+        <button type="reset">Очистить</button>
+        </p>
+    </form>
+</body>
+
+</html>

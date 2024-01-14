@@ -1,0 +1,39 @@
+div p {
+    color: rgb(0, 118, 108);
+}
+
+#title {
+    background-color: aquamarine;
+}
+
+#title2 {
+    background-color: rgb(97, 79, 255);
+}
+
+.title {
+    color: rgb(0, 20, 109);
+}
+
+[type='password'] {
+    background-color: rgb(168, 237, 204);
+}
+
+[value='Moscow'] {
+    color: lightseagreen;
+}
+
+.item {
+    text-transform: uppercase;
+}
+
+.item.active {
+    background-color: mediumslateblue;
+}
+
+.list>li {
+    list-style: none;
+}
+
+* {
+    width: 300px;
+}
